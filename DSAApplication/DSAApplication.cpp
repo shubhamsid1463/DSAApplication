@@ -9,7 +9,6 @@ void fun(int a)
   static int count = 0;
 	if (a > 0)
 	{
-
 		x++;
 		count++;
 		cout << "Function called with value: " << a << endl;
