@@ -3,19 +3,25 @@
 
 #include <iostream>
 using namespace std;
-
+int x = 0;
 void fun(int a)
 {
+  static int count = 0;
 	if (a > 0)
 	{
+		x++;
+		count++;
 		cout << "Function called with value: " << a << endl;
+	cout << "count value: " << count << endl;
 		fun(a - 1);
 	}
 }
 int main()
 {
+	x++;
 	int a=10;
 	fun(a);
+	cout << "Value of x: " << x << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
