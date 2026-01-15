@@ -3,25 +3,32 @@
 
 #include <iostream>
 using namespace std;
-int x = 0;
+void fun2(int a);
 void fun(int a)
 {
   static int count = 0;
 	if (a > 0)
 	{
-		x++;
-		count++;
-		cout << "Function called with value: " << a << endl;
-	cout << "count value: " << count << endl;
-		fun(a - 1);
+		cout << "Function called with value:fun1 " << a << endl;
+		fun2(a - 1);
+		cout << "Function return with value:fun1 " << a << endl;
+
+	}
+}
+void fun2(int a)
+{
+	if (a > 0)
+	{
+		cout << "Function called with value:fun2 " << a << endl;
+		fun(a/2);
+		cout << "Function return with value:fun2 " << a << endl;
 	}
 }
 int main()
 {
-	x++;
-	int a=10;
+	int a=100;
 	fun(a);
-	cout << "Value of x: " << x << endl;
+	cout << "Value of x: " ;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
