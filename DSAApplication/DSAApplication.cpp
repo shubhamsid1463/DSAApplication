@@ -2,33 +2,38 @@
 //
 
 #include <iostream>
+#include "SumOfNnaturalNumber.h"
+#include "Factorial.h"
+#include "PowerFunction.h"
 using namespace std;
-void fun2(int a);
-void fun(int a)
-{
-  static int count = 0;
-	if (a > 0)
-	{
-		cout << "Function called with value:fun1 " << a << endl;
-		fun2(a - 1);
-		cout << "Function return with value:fun1 " << a << endl;
 
-	}
-}
-void fun2(int a)
+
+int fun(int a)
 {
-	if (a > 0)
+	if (a > 100)
 	{
-		cout << "Function called with value:fun2 " << a << endl;
-		fun(a/2);
-		cout << "Function return with value:fun2 " << a << endl;
+		return a - 10;
+	}
+	else
+	{
+		return fun(fun(a + 11));
 	}
 }
 int main()
 {
-	int a=100;
-	fun(a);
-	cout << "Value of x: " ;
+	int a=5;
+	SumOfNnaturalNumber s;
+	Factorial f;
+	PowerFunction p;
+	cout << "Sum of first " << a << " natural numbers is: " << s.Recursivesum(a) << endl;
+	cout << "Sum of first " << a << " natural numbers is: " << s.Iterativesum(a) << endl;
+	cout << "Sum of first " << a << " natural numbers is: " << s.Formulasum(a) << endl;
+	cout << "Factorail of " << a << " is: " << f.Iterativefactorial(a) << endl;
+	cout << "Factorail of " << a << " is: " << f.Recursivefactorial(a) << endl;
+	cout << "Value of x: " << fun(a) << endl;
+	cout << "Power 5  of 13 using recursive : " << p.Recursivepower(13,a) << endl;
+	cout << "Power 5  of 13 using Optimizedrecursive : " << p.OptimizedRecursivepower(13,a) << endl;
+	cout << "Power 5  of 13 using Iterative : " << p.Iterativepower(13,a) << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
