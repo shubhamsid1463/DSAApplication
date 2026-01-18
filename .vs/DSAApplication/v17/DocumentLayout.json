@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{365A47F4-D16C-45BB-82E6-BD34CB696DD7}|DSAApplication\\DSAApplication.vcxproj|D:\\Projects\\C\u002B\u002B\\DSAApplication\\DSAApplication\\DSAApplication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{365A47F4-D16C-45BB-82E6-BD34CB696DD7}|DSAApplication\\DSAApplication.vcxproj|solutionrelative:DSAApplication\\DSAApplication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365A47F4-D16C-45BB-82E6-BD34CB696DD7}|DSAApplication\\DSAApplication.vcxproj|D:\\Projects\\C\u002B\u002B\\DSAApplication\\DSAApplication\\PowerFunction.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{365A47F4-D16C-45BB-82E6-BD34CB696DD7}|DSAApplication\\DSAApplication.vcxproj|solutionrelative:DSAApplication\\PowerFunction.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365A47F4-D16C-45BB-82E6-BD34CB696DD7}|DSAApplication\\DSAApplication.vcxproj|D:\\Projects\\C\u002B\u002B\\DSAApplication\\DSAApplication\\SumOfNnaturalNumber.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{365A47F4-D16C-45BB-82E6-BD34CB696DD7}|DSAApplication\\DSAApplication.vcxproj|solutionrelative:DSAApplication\\SumOfNnaturalNumber.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365A47F4-D16C-45BB-82E6-BD34CB696DD7}|DSAApplication\\DSAApplication.vcxproj|D:\\Projects\\C\u002B\u002B\\DSAApplication\\DSAApplication\\Factorial.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{365A47F4-D16C-45BB-82E6-BD34CB696DD7}|DSAApplication\\DSAApplication.vcxproj|solutionrelative:DSAApplication\\Factorial.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,7 +34,46 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PowerFunction.h",
+              "DocumentMoniker": "D:\\Projects\\C\u002B\u002B\\DSAApplication\\DSAApplication\\PowerFunction.h",
+              "RelativeDocumentMoniker": "DSAApplication\\PowerFunction.h",
+              "ToolTip": "D:\\Projects\\C\u002B\u002B\\DSAApplication\\DSAApplication\\PowerFunction.h",
+              "RelativeToolTip": "DSAApplication\\PowerFunction.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-18T05:51:17.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Factorial.h",
+              "DocumentMoniker": "D:\\Projects\\C\u002B\u002B\\DSAApplication\\DSAApplication\\Factorial.h",
+              "RelativeDocumentMoniker": "DSAApplication\\Factorial.h",
+              "ToolTip": "D:\\Projects\\C\u002B\u002B\\DSAApplication\\DSAApplication\\Factorial.h",
+              "RelativeToolTip": "DSAApplication\\Factorial.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-15T19:43:19.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SumOfNnaturalNumber.h",
+              "DocumentMoniker": "D:\\Projects\\C\u002B\u002B\\DSAApplication\\DSAApplication\\SumOfNnaturalNumber.h",
+              "RelativeDocumentMoniker": "DSAApplication\\SumOfNnaturalNumber.h",
+              "ToolTip": "D:\\Projects\\C\u002B\u002B\\DSAApplication\\DSAApplication\\SumOfNnaturalNumber.h",
+              "RelativeToolTip": "DSAApplication\\SumOfNnaturalNumber.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-15T19:00:51.56Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -32,7 +83,7 @@
               "RelativeDocumentMoniker": "DSAApplication\\DSAApplication.cpp",
               "ToolTip": "D:\\Projects\\C\u002B\u002B\\DSAApplication\\DSAApplication\\DSAApplication.cpp",
               "RelativeToolTip": "DSAApplication\\DSAApplication.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACMAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-01-14T13:18:13.189Z",
               "EditorCaption": ""

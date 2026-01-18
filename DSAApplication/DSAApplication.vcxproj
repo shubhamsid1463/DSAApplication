@@ -128,6 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DSAApplication.cpp" />
+    <ClCompile Include="Factorial.cpp" />
+    <ClCompile Include="PowerFunction.cpp" />
+    <ClCompile Include="SumOfNnaturalNumber.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Factorial.h" />
+    <ClInclude Include="PowerFunction.h" />
+    <ClInclude Include="SumOfNnaturalNumber.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
